@@ -50,4 +50,32 @@ Download resume in professional PDF format.
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
+
+AI-Resume-Assistant
+│
+├── client/      → React Frontend
+│   ├── src/
+│   └── package.json
+│
+├── server/      → Flask Backend
+│   ├── app.py
+│   ├── ats.py
+│   ├── ai_generator.py
+│   ├── resume_analyzer.py
+│   ├── pdf_generator.py
+│   └── requirements.txt
+│
+├── .gitignore
+└── README.md
+
+---
+
+# ⚙️ Installation & Setup
+
+## 1️⃣ Clone Repository
+
+```bash
+git clone https://github.com/yourusername/AI-Resume-Assistant.git
+cd AI-Resume-Assistant
+```
